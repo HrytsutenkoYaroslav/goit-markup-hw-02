@@ -37,7 +37,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
 }
-h3 {
+.about h3 {
   color: var(--title-text-color);
   font-weight: 700;
 }
@@ -54,11 +54,10 @@ h3 {
 }
 .button {
   cursor: pointer;
-
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -96,11 +95,11 @@ h3 {
 }
 .contact {
   color: var(--primary-text-color);
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
+.contact-top {font-weight: 500;}
 .site-nav {
   font-weight: 500;
   font-size: 14px;
@@ -127,7 +126,7 @@ h3 {
 }
 .team p {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
